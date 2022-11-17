@@ -1,0 +1,236 @@
+html * {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#home {
+  background-color: #5800FF;
+}
+
+/* NAVBAR */
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #5800FF;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 17px 20px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #5800FF;
+  text-decoration: none;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #5800FF;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  background-color: #5800FF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #fff;
+  color: #5800FF;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #5800FF;
+}
+
+/* HIGHLIGHTS */
+.link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.highlight {
+  font-size: 30px;
+}
+
+*::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+/* TITLES */
+.title {
+  color: #fff;
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 35px;
+}
+
+p {
+  line-height: 150%;
+}
+
+/* SECTIONS */
+.section {
+  margin: 5% 10%;
+  color: #fff;
+}
+
+.question {
+  font-size: 35px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #FFC600;
+  color: #5800FF;
+}
+
+#section-0-box,
+#section-1-box,
+#section-2-box,
+#section-3-box {
+  padding: 5%;
+  width: 100%;
+  margin: 0;
+}
+
+#section-0-box {
+  background-color: #FFC600;
+  margin-top: 0;
+}
+
+#section-1-box {
+  background-color: #5800FF;
+}
+
+#section-2-box {
+  background-color: #F63E7B;
+}
+
+#section-3-box {
+  background-color: #FFC600;
+}
+
+header {
+  background-color: #5800FF;
+  margin-bottom: 0;
+}
+
+.home-info {
+  min-height: 100%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  body {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* HIGHLIGHTS */
+  .highlight {
+    font-size: 25px;
+  }
+
+  /* TITLES */
+  .title {
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+
+  }
+
+  .section {
+    margin: 5% 0%;
+    color: #fff;
+  }
+
+  #section-0-box,
+  #section-1-box,
+  #section-2-box,
+  #section-3-box {
+    padding: 5% 0%;
+  }
+
+  .section-title {
+    font-size: 25px;
+  }
+
+  .question {
+    font-size: 25px;
+  }
+
+  /* SECTIONS */
+  .section {
+    margin: 5% 5%;
+    color: #fff;
+  }
+
+  iframe {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 0;
+  }
+}
